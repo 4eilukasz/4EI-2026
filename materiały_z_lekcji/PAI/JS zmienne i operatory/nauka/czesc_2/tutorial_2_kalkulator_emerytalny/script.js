@@ -1,0 +1,1 @@
+// Stała WIEK_EMERYTALNY = 65

@@ -1,0 +1,1 @@
+// Użyj % do obliczenia reszty
