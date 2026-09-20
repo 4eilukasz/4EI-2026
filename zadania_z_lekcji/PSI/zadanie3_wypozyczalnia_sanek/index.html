@@ -42,27 +42,40 @@
             </tr>
             <tr>
                 <td>Namiot 2-os.</td>
-                <td>40 zł</td>
-                <td>70 zł</td>
+                <td><b>40 zł</b></td>
+                <td><b>70 zł</b></td>
             </tr>
             <tr>
                 <td>Rower trekkingowy</td>
-                <td>55 zł</td>
-                <td>95 zł</td>
+                <td><b>55 zł</b></td>
+                <td><b>95 zł</b></td>
             </tr>
             <tr>
                 <td>Kajak</td>
-                <td>70 zł</td>
-                <td>120 zł</td>
+                <td><b>70 zł</b></td>
+                <td><b>120 zł</b></td>
             </tr>
         </table>
 
         <h2 id="rezerwacja">Rezerwacja</h2>
 
         <form method="post">
-            <input type="text" name="imie">Imię:
-            <label for="imie"></label>
+            <label for="imie">Imię</label>
+            <input type="text" name="imie" id="imie"><br>
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email"><br>
+            <label for="sprzet">Sprzęt</label>
+            <select name="sprzet">
+                <option value="namiot">Namiot 2-os.</option>
+                <option value="rower">Rower trekkingowy</option>
+                <option value="kajak">Kajak</option>
+            </select><br>
+            <input type="submit" value="Zarezerwuj">
         </form>
     </main>
+
+    <footer>
+        <p>Łukasz 4EI</p>
+    </footer>
 </body>
 </html>
