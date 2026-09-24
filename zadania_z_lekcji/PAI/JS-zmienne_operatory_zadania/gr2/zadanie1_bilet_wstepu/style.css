@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.bilet {
+  background: #fff;
+  width: 300px;
+  padding: 20px;
+  border: 2px dashed #000;
+  text-align: center;
+}
+.bilet h3 {
+  margin-top: 0;
+}
+.cena {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #e74c3c;
+}
