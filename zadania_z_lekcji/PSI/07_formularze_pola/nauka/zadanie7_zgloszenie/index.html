@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Łukasz 4EI">
+    <title>Pracownia 12 - zgłoszenie</title>
+</head>
+<body>
+
+    <h1>Formularz</h1>
+    
+    <form action="#" method="post">
+        
+        <label for="imie">Imię</label>
+        <input type="text" name="imie" id="imie" required><br>
+        
+        <label for="wiadomosc">Wiadomość</label>
+        <textarea name="wiadomosc" id="wiadomosc" rows="4"></textarea><br>
+
+        <input type="checkbox" name="zgoda" id="zgoda">
+        <label for="zgoda">Zgoda</label><br>
+
+        <label for="zmiana">Zmiana</label>
+        <input type="radio" name="zmiana" id="1" value="Pierwsza">
+        <label for="1">Pierwsza</label><br>
+        <input type="radio" name="zmiana" id="2" value="Druga">
+        <label for="2">Druga</label><br>
+
+        <label for="sala"></label>
+        <select name="sala" id="sala">
+            <option value="12">12</option>
+            <option value="4">4</option>
+        </select><br>
+
+        <input type="submit" value="Wyślij">
+    </form>
+    
+    <footer>
+        <p>Łukasz 4EI</p>
+    </footer>
+</body>
+</html>
