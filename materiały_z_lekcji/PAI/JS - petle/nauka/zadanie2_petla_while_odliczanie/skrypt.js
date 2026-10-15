@@ -1,0 +1,3 @@
+// Wykonaj zadanie zgodnie z instrukcją
+let licznik = 10;
+// Tutaj wpisz pętlę while...
