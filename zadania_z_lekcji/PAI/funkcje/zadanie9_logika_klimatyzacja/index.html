@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zadanie 9</title>
+    <link rel="stylesheet" href="style.css" />
+    <script>
+      function sterujKlimatyzacja(temperatura, czyWlaczona){
+        if(czyWlaczona === true){
+          if(temperatura > 30){
+            document.write("Chłodzenie na MAX!<br>");
+          }
+          else if(temperatura >= 25 && temperatura < 30){
+            document.write("Chłodzenie umiarkowane.<br>");
+          }
+          else{
+            document.write("Temperatura idealna, wiatrak wolny.<br>");
+          }
+        }
+        else{
+          document.write("Klimatyzacja nie działa.<br>");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Zadanie 9: Złożone Warunki</h1>
+    <p>Sterownik klimatyzacji.</p>
+    <div id="wynik">
+      <script>
+        sterujKlimatyzacja(35, true);
+        sterujKlimatyzacja(15, true);
+        sterujKlimatyzacja(40, false);
+      </script>
+    </div>
+    <footer>
+      Łukasz 4EI
+    </footer>
+  </body>
+</html>
