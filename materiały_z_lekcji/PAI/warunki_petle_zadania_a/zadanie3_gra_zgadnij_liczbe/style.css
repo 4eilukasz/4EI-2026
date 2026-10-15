@@ -1,0 +1,17 @@
+body {
+  background-color: #222;
+  color: #eee;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+.game-container {
+  margin-top: 100px;
+  border: 2px solid #0f0;
+  padding: 20px;
+  display: inline-block;
+}
+#komunikat {
+  font-size: 24px;
+  color: #0f0;
+  margin-top: 20px;
+}
