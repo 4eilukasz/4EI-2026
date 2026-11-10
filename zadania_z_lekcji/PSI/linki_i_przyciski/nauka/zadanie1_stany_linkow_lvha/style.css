@@ -1,0 +1,37 @@
+/* Zadanie 1: Stany odnośników LVHA */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+  margin: 20px;
+}
+.kontener {
+  max-width: 600px;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+/* TODO: Zaimplementuj stany odnośników w regule LVHA */
+
+.menu-linkow a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.menu-linkow a:link{
+  color: #0284c7;
+  text-decoration: none;
+}
+
+.menu-linkow a:visited{
+  color: #64748b;
+}
+
+.menu-linkow a:hover{
+  color: #0369a1;
+  text-decoration: underline;
+}
+
+.menu-linkow a:active{
+  color: #b91c1c;
+}

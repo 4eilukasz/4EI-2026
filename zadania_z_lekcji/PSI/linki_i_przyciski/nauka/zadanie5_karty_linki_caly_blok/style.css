@@ -1,0 +1,36 @@
+/* Zadanie 5: Karty jako odnośniki blokowe */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f5f9;
+  margin: 30px;
+}
+.katalog-ofert {
+  max-width: 600px;
+}
+/* TODO: Zaimplementuj .karta-link oraz stany :hover i :focus */
+
+.karta-link{
+  display: block;
+  text-decoration: none;
+  color: #1e293b;
+  background-color: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.karta-link:hover{
+  border-color: #3b82f6;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+.karta-link:hover h3{
+  color: #2563eb;
+}
+
+.karta-link:focus{
+  outline: 3px solid #3b82f6;
+  outline-offset: 3px;
+}
