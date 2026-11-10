@@ -1,0 +1,18 @@
+/* Zadanie 4: Warianty przycisków */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+  margin: 30px;
+}
+.panel-decyzyjny {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  max-width: 800px;
+}
+.wiersz-przyciskow a {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+/* TODO: Zaimplementuj .btn, .btn-primary, .btn-secondary, .btn-outline, .btn-zablokowany */
