@@ -1,0 +1,14 @@
+/* Zadanie 3: Wskaźnik fokusu */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0fdf4;
+  margin: 30px;
+}
+.panel-dostepnosci {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  max-width: 600px;
+  border: 1px solid #bbf7d0;
+}
+/* TODO: Zaimplementuj .btn-pobierz oraz stany :focus i :hover */
