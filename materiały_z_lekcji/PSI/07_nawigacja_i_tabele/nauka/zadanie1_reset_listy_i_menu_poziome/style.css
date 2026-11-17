@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f8fafc;
+  color: #0f172a;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #1e293b;
+  border-radius: 6px;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 12px 20px;
+  color: #f8fafc;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  background-color: #0284c7;
+}

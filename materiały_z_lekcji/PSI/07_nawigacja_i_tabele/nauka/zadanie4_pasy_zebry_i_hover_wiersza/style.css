@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f8fafc;
+}
+#tabela-kadry {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+}
+#tabela-kadry th,
+#tabela-kadry td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #cbd5e1;
+  text-align: left;
+}
+#tabela-kadry thead th {
+  background-color: #1e293b;
+  color: #ffffff;
+  font-weight: bold;
+}
+#tabela-kadry tbody tr:nth-child(even) {
+  background-color: #f1f5f9;
+}
+#tabela-kadry tbody tr:hover {
+  background-color: #e2e8f0;
+}

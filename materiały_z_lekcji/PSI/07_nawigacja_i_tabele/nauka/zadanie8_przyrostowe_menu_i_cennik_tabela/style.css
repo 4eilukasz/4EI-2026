@@ -1,0 +1,174 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  border-bottom: 2px solid #e2e8f0;
+}
+#logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2563eb;
+}
+#tytul-portalu {
+  font-size: 18px;
+  color: #64748b;
+  margin: 5px 0 15px 0;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+nav a:link {
+  color: #0284c7;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 8px 14px;
+  display: block;
+}
+nav a:visited {
+  color: #475569;
+}
+nav a:hover {
+  color: #ffffff;
+  background-color: #0284c7;
+  border-radius: 4px;
+}
+nav a.aktywny {
+  color: #ffffff;
+  background-color: #0369a1;
+  border-radius: 4px;
+}
+#baner-glowny {
+  background-color: #e0f2fe;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 1px solid #bae6fd;
+}
+.btn-baner {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #0284c7;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.btn-baner:hover {
+  background-color: #0369a1;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+#uslugi {
+  padding: 30px 20px;
+}
+.karta-uslugi {
+  display: inline-block;
+  vertical-align: top;
+  width: 280px;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.karta-uslugi:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+.btn-karta {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f1f5f9;
+  color: #0284c7;
+  border: 1px solid #cbd5e1;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.btn-karta:hover {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+#cennik {
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+#tabela-danych {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+#tabela-danych th,
+#tabela-danych td {
+  padding: 12px 16px;
+  border: 1px solid #cbd5e1;
+  text-align: left;
+}
+#tabela-danych thead th {
+  background-color: #1e293b;
+  color: #ffffff;
+  font-weight: bold;
+}
+#tabela-danych tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+#tabela-danych tbody tr:hover {
+  background-color: #e0f2fe;
+}
+.kwota {
+  text-align: right;
+  font-family: monospace;
+  font-weight: bold;
+}
+#zamowienie {
+  padding: 30px 20px;
+  background-color: #f8fafc;
+}
+#btn-oblicz, #btn-wyslij {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  margin-right: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#btn-oblicz {
+  background-color: #2563eb;
+}
+#btn-oblicz:hover {
+  background-color: #1d4ed8;
+}
+#btn-wyslij {
+  background-color: #16a34a;
+}
+#btn-wyslij:hover {
+  background-color: #15803d;
+}
+.ukryty {
+  display: none;
+}
+footer {
+  background-color: #0f172a;
+  color: #94a3b8;
+  text-align: center;
+  padding: 20px;
+}
