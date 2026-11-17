@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f1f5f9;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #0f172a;
+  border-radius: 6px;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 12px 22px;
+  color: #cbd5e1;
+  text-decoration: none;
+  font-weight: 600;
+}
+nav a:hover {
+  background-color: #1e293b;
+  color: #ffffff;
+}
+nav a.aktywny {
+  background-color: #0369a1;
+  color: #ffffff;
+  border-bottom: 3px solid #f59e0b;
+}
+nav a:focus {
+  outline: 2px solid #f59e0b;
+  outline-offset: -2px;
+}

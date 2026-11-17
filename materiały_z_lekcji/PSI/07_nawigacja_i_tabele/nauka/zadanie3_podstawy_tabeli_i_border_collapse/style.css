@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #ffffff;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+th, td {
+  border: 1px solid #94a3b8;
+  padding: 10px 14px;
+}
+th {
+  background-color: #334155;
+  color: #ffffff;
+  text-align: left;
+}
+.cena {
+  text-align: right;
+  font-family: monospace;
+}

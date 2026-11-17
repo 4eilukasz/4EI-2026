@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 24px;
+  background-color: #0f172a;
+  color: #f8fafc;
+}
+header {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+header h1 {
+  margin: 0 0 16px 0;
+  font-size: 22px;
+  color: #38bdf8;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline-block;
+  margin-right: 12px;
+}
+nav a {
+  display: block;
+  padding: 10px 18px;
+  color: #94a3b8;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 4px;
+}
+nav a:hover {
+  background-color: #334155;
+  color: #ffffff;
+}
+nav a.aktywny {
+  background-color: #0284c7;
+  color: #ffffff;
+}
+#tabela-frachtow {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1e293b;
+  border-radius: 8px;
+  overflow: hidden;
+}
+#tabela-frachtow th,
+#tabela-frachtow td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #334155;
+  text-align: left;
+}
+#tabela-frachtow thead th {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-weight: bold;
+}
+#tabela-frachtow tbody tr:nth-child(even) {
+  background-color: #182234;
+}
+#tabela-frachtow tbody tr:hover {
+  background-color: #24324a;
+}
+.liczba {
+  text-align: right;
+}
+.kwota {
+  text-align: right;
+  font-family: monospace;
+  font-weight: bold;
+  color: #38bdf8;
+}
+.status {
+  text-align: center;
+  font-weight: 600;
+  font-size: 13px;
+  border-radius: 4px;
+}
+.status-sukces {
+  color: #4ade80;
+}
+.status-ostrzezenie {
+  color: #facc15;
+}
+.etykieta-suma {
+  text-align: right;
+  font-weight: bold;
+}
+.suma-calkowita {
+  font-size: 16px;
+  color: #38bdf8;
+}
