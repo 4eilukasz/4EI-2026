@@ -1,0 +1,64 @@
+/* ==========================================================================
+   Zadanie 1: Jednostki em vs rem w typografii
+   Szablon startowy dla ucznia
+   ========================================================================== */
+
+/* 1. Reset i model pudełkowy */
+*, *::before, *::after {
+  /* TODO: wyzeruj marginesy, dopełnienia oraz ustaw border-box */
+}
+
+/* 2. Baza dokumentu */
+html {
+  /* TODO: ustaw bazowy rozmiar czcionki na 16px */
+}
+
+body {
+  /* TODO: ustaw kolor tła (#f8fafc), kolor tekstu (#0f172a), stos czcionek i line-height (1.6) */
+}
+
+/* 3. Kontener główny */
+.kontener {
+  /* TODO: max-width 840px, margines pionowy 2.5rem i auto poziomo, dopełnienie boczne 1rem */
+}
+
+/* 4. Karta porównawcza */
+.karta-porownawcza {
+  /* TODO: tło białe, obramowanie 1px solid #cbd5e1, zaokrąglenie 8px, padding 2rem, margines dolny 2rem, cień */
+}
+
+/* 5. Typografia w rem */
+h1 {
+  /* TODO: font-size: 1.75rem, kolor #0f172a, margines dolny 1rem */
+}
+
+h2 {
+  /* TODO: font-size: 1.25rem, kolor #1e293b, margines dolny 0.75rem */
+}
+
+p {
+  /* TODO: font-size: 1rem, kolor #334155, margines dolny 1rem */
+}
+
+/* 6. Pułapka em w zagnieżdżeniach */
+.lista-em {
+  /* TODO: usuń punktory */
+}
+
+.lista-em li {
+  /* TODO: font-size: 1.25em, padding: 0.3em 0, kolor #b91c1c */
+}
+
+/* 7. Stabilna lista w rem */
+.lista-rem {
+  /* TODO: usuń punktory */
+}
+
+.lista-rem li {
+  /* TODO: font-size: 0.95rem, padding: 0.35rem 0, kolor #047857 */
+}
+
+/* 8. Przycisk skalowalny z dopełnieniem w em */
+.btn-skalowalny {
+  /* TODO: inline-block, font-size 1.25rem, padding w em (0.6em 1.2em), tło #0284c7, biały tekst, brak podkreślenia, border-radius 0.4em */
+}

@@ -1,0 +1,73 @@
+/* ==========================================================================
+   Zadanie 2: Jednostki procentowe i kontenery
+   Szablon startowy dla ucznia
+   ========================================================================== */
+
+/* 1. Reset i model pudełkowy */
+*, *::before, *::after {
+  /* TODO: box-sizing: border-box, zerowanie margin i padding */
+}
+
+/* 2. Style bazowe strony */
+body {
+  /* TODO: tło #f1f5f9, tekst #1e293b, czcionka systemowa, line-height 1.5 */
+}
+
+/* 3. Elastyczny kontener nadrzędny */
+.kontener {
+  /* TODO: width 90%, max-width 960px, margines pionowy 2rem i auto w poziomie */
+  /* TODO: dopełnienie 1.5rem, tło białe #ffffff, zaokrąglenie 8px, obramowanie 1px solid #cbd5e1 */
+}
+
+h1 {
+  font-size: 1.75rem;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #475569;
+  margin-bottom: 1.5rem;
+}
+
+/* 4. Wiersz dwukolumnowy oparty o inline-block */
+.wiersz-kolumn {
+  /* TODO: wyzeruj wielkość czcionki (font-size: 0), aby usunąć odstępy między inline-block */
+  /* TODO: margines dolny 1.5rem */
+}
+
+/* 5. Kolumny o szerokości procentowej */
+.kolumna-polowa {
+  /* TODO: display inline-block, width 50%, vertical-align top */
+  /* TODO: przywróć font-size: 1rem, dodaj padding 0.75rem */
+}
+
+/* 6. Karta wewnętrzna */
+.karta-wewnetrzna {
+  /* TODO: tło #f8fafc, obramowanie 1px solid #e2e8f0, zaokrąglenie 6px, padding 1.25rem */
+}
+
+.karta-wewnetrzna h2 {
+  font-size: 1.25rem;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+.karta-wewnetrzna p {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+/* 7. Responsywny obraz */
+.obraz-responsywny {
+  /* TODO: max-width 100%, height auto, display block, zaokrąglenie 4px */
+}
+
+/* 8. Pasek postępu oparty o procenty */
+.pasek-postepu-kontener {
+  /* TODO: tło #e2e8f0, wysokość 16px, zaokrąglenie 8px, ukrycie przepełnienia */
+}
+
+.pasek-postepu-wartosc {
+  /* TODO: wysokość 100%, tło #2563eb, szerokość 75% */
+}

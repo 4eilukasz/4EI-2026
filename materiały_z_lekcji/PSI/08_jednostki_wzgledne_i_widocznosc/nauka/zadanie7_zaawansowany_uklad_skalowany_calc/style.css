@@ -1,0 +1,92 @@
+/* ==========================================================================
+   Zadanie 7: Zaawansowany pulpit analityczny floty z funkcją calc()
+   Szablon startowy dla ucznia
+   ========================================================================== */
+
+/* 1. Reset i model pudełkowy */
+*, *::before, *::after {
+  /* TODO: box-sizing: border-box, zerowanie margin i padding */
+}
+
+/* 2. Baza dokumentu */
+body {
+  /* TODO: tło #0b1329, tekst #e2e8f0, czcionka systemowa, line-height 1.5 */
+}
+
+/* 3. Kontener główny pulpitu */
+.kontener-pulpitu {
+  /* TODO: width 92%, max-width 1120px, margines pionowy 2rem i auto w poziomie */
+}
+
+/* 4. Nagłówek pulpitu */
+.naglowek-pulpitu {
+  /* TODO: tło #1e293b, obramowanie 1px solid #334155, zaokrąglenie 8px, padding 1.5rem 2rem, margines dolny 1.5rem */
+}
+
+.naglowek-pulpitu h1 {
+  font-size: 1.75rem;
+  color: #38bdf8;
+  margin-bottom: 0.25rem;
+}
+
+.naglowek-pulpitu p {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+/* 5. Wiersz analityczny - niwelacja białych znaków inline-block */
+.wiersz-analityczny {
+  /* TODO: wyzeruj wielkość czcionki font-size: 0, margines dolny 1.5rem */
+}
+
+/* 6. Trzy kolumny oparte o calc() */
+.kafelek-analityczny {
+  /* TODO: display inline-block, szerokość calc((100% - 3rem) / 3), margines prawy 1.5rem */
+  /* TODO: vertical-align top, przywróć font-size: 0.95rem, tło #1e293b, ramka 1px solid #334155, border-radius 8px, padding 1.5rem */
+}
+
+.kafelek-analityczny:nth-child(3n) {
+  /* TODO: wyzeruj margines prawy dla co trzeciego elementu */
+}
+
+.kafelek-analityczny h2 {
+  font-size: 1.1rem;
+  color: #f8fafc;
+  margin-bottom: 0.5rem;
+}
+
+.kafelek-analityczny p {
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+/* 7. Kontener miernika */
+.kontener-miernika {
+  /* TODO: tło #0f172a, wysokość 20px, zaokrąglenie 10px, padding 2px, ramka 1px solid #334155, margines górny 1rem */
+}
+
+/* 8. Słupek poziomu z kalkulacją rezerwy */
+.slupek-poziomu {
+  /* TODO: wysokość 100%, zaokrąglenie 8px */
+}
+
+.wariant-zielony {
+  /* TODO: tło #10b981, szerokość calc(100% - 2.5rem) */
+}
+
+.wariant-pomaranczowy {
+  /* TODO: tło #f59e0b, szerokość calc(100% - 1.2rem) */
+}
+
+.wariant-niebieski {
+  /* TODO: tło #3b82f6, szerokość calc(100% - 5rem) */
+}
+
+/* 9. Wskaźnik ostrzeżenia awaryjnego */
+.ostrzezenie-awaria {
+  /* TODO: tło #ef4444, kolor biały, padding 0.4rem 0.8rem, zaokrąglenie 4px, font-size 0.85rem, margines górny 1rem */
+}
+
+.brak-bledu {
+  /* TODO: ukryj bez naruszenia geometrii za pomocą visibility: hidden, min-height 28px */
+}

@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Zadanie 5: display: none vs visibility: hidden
+   Szablon startowy dla ucznia
+   ========================================================================== */
+
+/* 1. Reset i model pudełkowy */
+*, *::before, *::after {
+  /* TODO: box-sizing: border-box, zerowanie margin i padding */
+}
+
+/* 2. Baza dokumentu */
+body {
+  /* TODO: tło #f8fafc, tekst #0f172a, czcionka systemowa, line-height 1.5 */
+}
+
+/* 3. Kontener główny */
+.kontener {
+  /* TODO: max-width 840px, margines pionowy 2rem i auto w poziomie, dopełnienie boczne 1rem */
+}
+
+h1 {
+  font-size: 1.6rem;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+/* 4. Panele porównawcze */
+.panel-porownawczy {
+  /* TODO: tło białe, obramowanie 1px solid #cbd5e1, zaokrąglenie 8px, padding 1.5rem, margines dolny 2rem */
+}
+
+.panel-porownawczy h2 {
+  font-size: 1.2rem;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.panel-porownawczy p {
+  color: #475569;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+/* 5. Alert rezerwujący miejsce (visibility) */
+.alert-rezerwacja {
+  /* TODO: min-height 48px, tło #fee2e2, ramka 1px solid #ef4444, zaokrąglenie 6px, padding 0.75rem 1rem, tekst #991b1b, margines dolny 1rem */
+}
+
+/* Klasa ukrywająca z zachowaniem miejsca */
+.niewidoczny {
+  /* TODO: ustaw visibility: hidden */
+}
+
+/* 6. Alert zwijany (display) */
+.alert-zwiniecie {
+  /* TODO: tło #fef3c7, ramka 1px solid #f59e0b, zaokrąglenie 6px, padding 0.75rem 1rem, tekst #92400e, margines dolny 1rem */
+}
+
+/* Klasa całkowicie usuwająca element z drzewa renderowania */
+.ukryty {
+  /* TODO: ustaw display: none */
+}
+
+/* 7. Przycisk przełączający */
+.btn-przepnij {
+  /* TODO: display inline-block, padding 0.5rem 1rem, tło #0284c7, biały tekst, brak ramki, zaokrąglenie 4px, kursor pointer, margines górny 0.5rem */
+}
+
+.notatka {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
